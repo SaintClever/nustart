@@ -1,0 +1,186 @@
+{
+  "animals": [
+    {
+      "id": 0,
+      "title": "Alligator",
+      "image": "images/alligator.png",
+      "vikidia": "https://en.vikidia.org/wiki/Alligator",
+      "description": "An alligator is a large reptile. They commonly live in swamps, and in small groups. They have scales and they have a long snout. They belong to the family of crocodiles."
+    },
+    {
+      "id": 1,
+      "title": "Bear",
+      "image": "images/bear.png",
+      "vikidia": "https://en.vikidia.org/wiki/Bear",
+      "description": "Bears are carnivorous mammals. It has got a big head, small round dark eyes, a black nose and round ears. It has got sharp fangs, claws-It has got a short, hairy tail-It has got fur-It has 1 humps Giant panda: 70 - 100 kg Polar bear: 450 kg Brown bear: 80 - 600 kg Black bear: 110 kg"
+    },
+    {
+      "id": 2,
+      "title": "Cat",
+      "image": "images/cat.png",
+      "vikidia": "https://en.vikidia.org/wiki/Cat",
+      "description": "Cats or House cats (scientific name : Felis silvestris catus) are mammals of the family Felidae (the felines). Originally, cats were wild animals, but they first have been domesticated 10,000 years ago. Scientists think that the ancestor of the domestic cat is the African Wildcat (Felis silvestris lybica)."
+    },
+    {
+      "id": 3,
+      "title": "Dog",
+      "image": "images/dog.png",
+      "vikidia": "https://en.vikidia.org/wiki/Dog",
+      "description": "A dog (Scientific name: Canis lupus familiaris) is a domestic animal. Dogs have descended from wolves. Many people keep dogs in their homes as pets. Dogs have been bred to do certain jobs such as rounding up sheep on a farm or ranch. Dogs are members of fire-fighting teams and police squads. Some dogs became movie and television stars in the past like Lassie and Rin Tin Tin."
+    },
+    {
+      "id": 4,
+      "title": "Elephant",
+      "image": "images/elephant.png",
+      "vikidia": "https://en.vikidia.org/wiki/Elephant",
+      "description": "The elephant is the largest land animal on Earth. It is a grey-skinned mammal with tusks, and a very long nose, called a trunk. There are two species of elephants: the Asian elephant, and the African elephant. The African is larger than the Asian. It has big ears, and really long tusks. This species lives in the African grasslands called the savannah."
+    },
+    {
+      "id": 5,
+      "title": "Fox",
+      "image": "images/fox.png",
+      "vikidia": "https://en.vikidia.org/wiki/Fox",
+      "description": "The fox is a mammal, carnivorous it can be: red orange, light grey The fox is long 60-80 cm and weighs 6/7kg"
+    },
+    {
+      "id": 6,
+      "title": "Giraffe",
+      "image": "images/giraffe.png",
+      "vikidia": "https://en.vikidia.org/wiki/Giraffe",
+      "description": "The giraffe is a long-necked, long-legged animal that lives in the grasslands of Africa. The front and hind legs have approximately the same length. The giraffe's neck can reach a maximum of two metres in length. Their teeth are very large, but it is difficult to see them. They have a long tongue. The royal giraffe extends into South Africa and Somalia. Giraffes are commonly found on savannahs and prairies or in woods. Their main food is Acacia leaves. Giraffes have been known to weigh up to 1930 kg or 4340 lbs and grow up to 19 ft tall."
+    },
+    {
+      "id": 7,
+      "title": "Horse",
+      "image": "images/horse.png",
+      "vikidia": "https://en.vikidia.org/wiki/Horse",
+      "description": "Horse (scientific name : Equus caballus) is a large domestic mammal. Horse can be mounted. Horses were domesticated about 4,500 years B.C., and, before the invention of the motor, were used worldwide, to be mounted, or to tow carriages, etc. There are nowadays many breeds of horses, including the smaller poney, and the race horses. A male horse is called a stallion, a female, a mare, and a baby, a foal."
+    },
+    {
+      "id": 8,
+      "title": "Iguana",
+      "image": "images/iguana.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Iguana",
+      "description": "Iguana (/ɪˈɡwɑːnə/, Spanish: [iˈɣwana]) is a genus of herbivorous lizards that are native to tropical areas of Mexico, Central America, South America, and the Caribbean. The genus was first described in 1768 by Austrian naturalist Josephus Nicolaus Laurenti in his book Specimen Medicum, Exhibens Synopsin Reptilium Emendatam cum Experimentis circa Venena. Two species are placed in the genus, the green iguana, which is widespread throughout its range and a popular pet, and the Lesser Antillean iguana, which is native to the Lesser Antilles. Genetic analysis indicates that the green iguana may comprise a complex of multiple species, some of which have been recently described, but the Reptile Database considers all of these as subspecies of the green iguana."
+    },
+    {
+      "id": 9,
+      "title": "Jellyfish",
+      "image": "images/jellyfish.png",
+      "vikidia": "https://en.vikidia.org/wiki/Jellyfish",
+      "description": "The Jellyfish is a marine animal that belongs to the plankton groups. It can be of different colors and different sizes. It has a dome with inside of the mouth and from the dome fall the tentacles that are stinging. It moves thanks to the currents marine. It has got tentacles and a gelatinous dome. The Jellyfish has a dome with inside the mouth and from the dome fall the tentacles that are stinging. Jellyfishes are of various sizes and colours. Their tentacles are long. There are big jellyfish and small jellyfish."
+    },
+    {
+      "id": 10,
+      "title": "Kangaroo",
+      "image": "images/kangaroo.png",
+      "vikidia": "https://en.vikidia.org/wiki/Kangaroo",
+      "description": "The kangaroo is a mammal. It is a marsupial. This means it carries its baby in a pouch. Kangaroos and other marsupials such as the koala, the Tasmanian devil, and the opossum live in Australia and the New World. Kangaroos are the largest living marsupials from the family Macropodidae. There are four species: the red kangaroo, the eastern grey kangaroo, the western grey kangaroo, and the antilopine kangaroo. Fossil remains of about 30 different kangaroo species have been discovered in Australia. One is a giant type that probably stood 10 feet (3 meters) tall."
+    },
+    {
+      "id": 11,
+      "title": "Lion",
+      "image": "images/lion.png",
+      "vikidia": "https://en.vikidia.org/wiki/Lion",
+      "description": "The lion (scientific name : Panthera leo) is a large mammal of the cat family (Felidae). The lion is the second-largest living cat after the tiger. Today, wild lions live in sub-Saharan Africa and in Asia. Lions live in grasslands and mixed areas with trees and grass. The relatively small females are fast runners over short distances, and co-ordinate their hunting of herd animals."
+    },
+    {
+      "id": 12,
+      "title": "Mouse",
+      "image": "images/mouse.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Mouse",
+      "description": "A mouse, plural mice, is a small rodent. Characteristically, mice are known to have a pointed snout, small rounded ears, a body-length scaly tail, and a high breeding rate. The best known mouse species is the common house mouse (Mus musculus). Mice are also popular as pets. In some places, certain kinds of field mice are locally common. They are known to invade homes for food and shelter."
+    },
+    {
+      "id": 13,
+      "title": "Narwhal",
+      "image": "images/narwhal.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Narwhal",
+      "description": "The narwhal or narwhale (Monodon monoceros) is a medium-sized toothed whale that possesses a large \"tusk\" from a protruding canine tooth. It lives year-round in the Arctic waters around Greenland, Canada, and Russia. It is one of two living species of whale in the family Monodontidae, along with the beluga whale. The narwhal males are distinguished by a long, straight, helical tusk, which is an elongated upper left canine. The narwhal was one of many species described by Carl Linnaeus in his publication Systema Naturae in 1758."
+    },
+    {
+      "id": 14,
+      "title": "Owl",
+      "image": "images/owl.png",
+      "vikidia": "https://en.vikidia.org/wiki/Owl",
+      "description": "Owls (Strigiformes) are birds. There are about 200 species. Most owls are loners and are active at night. They are birds of prey. A group of owls is called a \"Parliament\". A baby owl is an owlet."
+    },
+    {
+      "id": 15,
+      "title": "Pig",
+      "image": "images/pig.png",
+      "vikidia": "https://en.vikidia.org/wiki/Pig",
+      "description": "Pigs are mammals, they include the domestic pig and its ancestors, the common boar, the domestic pigs come in lots of different colors, shapes, and sizes. They are usually pink. Many people think that pigs are smelly and dirty but if kept as domestic they will always be clean and fragrant. Pigs need a warm, clean area under a roof to sleep."
+    },
+    {
+      "id": 16,
+      "title": "Quail",
+      "image": "images/quail.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Quail",
+      "description": "Quail is a collective name for several genera of mid-sized birds generally placed in the order Galliformes."
+    },
+    {   
+      "id": 17,
+      "title": "Rhinoceros",
+      "image": "images/rhinoceros.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Rhinoceros",
+      "description": "A rhinoceros (/raɪˈnɒsərəs/, from Greek rhinokerōs 'nose-horned', from rhis 'nose', and keras 'horn'), commonly abbreviated to rhino, is a member of any of the five extant species of odd-toed ungulates in the family Rhinocerotidae, as well as any of the numerous extinct species therein. Two of the extant species are native to Africa, and three to Southern Asia. The term \"rhinoceros\" is often more broadly applied to now extinct species of the superfamily Rhinocerotoidea."
+  },
+    {
+      "id": 18,
+      "title": "Snail",
+      "image": "images/snail.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Snail",
+      "description": "A snail is, in loose terms, a shelled gastropod. The name is most often applied to land snails, terrestrial pulmonate gastropod molluscs. However, the common name snail is also used for most of the members of the molluscan class Gastropoda that have a coiled shell that is large enough for the animal to retract completely into. When the word \"snail\" is used in this most general sense, it includes not just land snails but also numerous species of sea snails and freshwater snails. Gastropods that naturally lack a shell, or have only an internal shell, are mostly called slugs, and land snails that have only a very small shell (that they cannot retract into) are often called semi-slugs."
+    },
+    {
+      "id": 19,
+      "title": "Tiger",
+      "image": "images/tiger.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Tiger",
+      "description": "The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera. It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. It is an apex predator, primarily preying on ungulates such as deer and wild boar. It is territorial and generally a solitary but social predator, requiring large contiguous areas of habitat, which support its requirements for prey and rearing of its offspring. Tiger cubs stay with their mother for about two years, before they become independent and leave their mother's home range to establish their own."
+    },
+    {
+      "id": 20,
+      "title": "Unicorn",
+      "image": "images/unicorn.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Unicorn",
+      "description": "The unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead. The unicorn was mentioned by the ancient Greeks in accounts of natural history by various writers, including Ctesias, Strabo, Pliny the Younger, Aelian and Cosmas Indicopleustes. The Bible also describes an animal, the re'em, which some translations render as unicorn."
+    },
+    {
+      "id": 21,
+      "title": "Vulture",
+      "image": "images/vulture.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Vulture",
+      "description": "A vulture is a bird of prey that scavenges on carrion. There are 23 extant species of vulture (including Condors). Old World vultures include 16 living species native to Europe, Africa, and Asia; New World vultures are restricted to North and South America and consist of seven identified species, all belonging to the Cathartidae family A particular characteristic of many vultures is a bald head, devoid of feathers. This bare skin is thought to keep the head clean when feeding, and also plays an important role in thermoregulation."
+    },
+    {
+      "id": 22,
+      "title": "Whale",
+      "image": "images/whale.png",
+      "vikidia": "https://en.vikidia.org/wiki/Whale",
+      "description": "Whales are marine mammals belonging to the cetacean group. This group includes many fish-like animals such as the baleen whale and the sperm whale. Dolphins and porpoises also belong to this group, though they are not whales."
+    },
+    {
+      "id": 23,
+      "title": "X-Ray Fish",
+      "image": "images/xrayFish.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Pristella_maxillaris",
+      "description": "Pristella maxillaris is a species of characin in the genus Pristella, and is commonly known as the X-ray fish or X-ray tetra because of its translucent body. It is a widely distributed and adaptable fish, found in the Amazon and Orinoco basins, as well as coastal rivers in the Guianas in both acidic and alkaline waters. Unlike most other characins, it is tolerant of (and sometimes found in) slightly brackish water. It is small (up to around 5 cm or 2.0 in in length) and lives in large groups, and males can be distinguished from females by being smaller and thinner than the females. Like most other tetras, it feeds primarily on small insects and planktonic animals."
+    },
+    {
+      "id": 24,
+      "title": "Yak",
+      "image": "images/yak.png",
+      "vikidia": "https://en.wikipedia.org/wiki/Yak",
+      "description": "The domestic yak (Bos grunniens) is a long-haired domesticated cattle found throughout the Himalayan region of the Indian subcontinent, the Tibetan Plateau, Northern Myanmar, Yunnan, Sichuan and as far north as Mongolia and Siberia. It is descended from the wild yak (Bos mutus)."
+    },
+    {
+      "id": 25,
+      "title": "Zebra",
+      "image": "images/zebra.png",
+      "vikidia": "https://en.vikidia.org/wiki/Zebra",
+      "description": "The zebra is a mammal. It is a member of the horse family. It has black and white stripes. Zebras live in African grasslands, savannas, woodlands, thorny scrublands, mountains, and coastal hills. Zebras eat mostly grasses, but sometimes they eat leaves, twigs, bark, and shrubs. They live in small groups or large herds. The female zebra usually has her first baby when she is three. In the western world, zebras are kept in zoos and circuses. They are not easily tamed. The greatest threat to the zebra's survival is hunting the animal for its skin and meat, and turning its wild living places into farms."
+    }
+  ]
+}
