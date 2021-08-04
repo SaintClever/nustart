@@ -9,6 +9,22 @@ function Layout({ title, image, vikidia, description }) {
     <View style={style.container}>
       <View style={style.containerBorder}>
         <View style={style.containerImage}>
+          <Text style={{
+            position: 'absolute',
+            zIndex: 1,
+            right: 2.5,
+            top: 2.5,
+            padding: 5,
+            fontSize: 50,
+            fontWeight: 'bold',
+            color: '#fff',
+            fontStyle: 'italic',
+            textShadowColor: 'rgba(0, 0, 0, 0.50)',
+            textShadowOffset: { width: -1, height: 1 },
+            textShadowRadius: 10
+          }}>
+            {title.slice(0, 1)}
+          </Text>
           <Image
             source={{ uri: baseUrl + image }}
             style={{
@@ -18,14 +34,9 @@ function Layout({ title, image, vikidia, description }) {
           />
         </View>
         <View style={{ padding: 1 }}>
-          <Text style={{ textAlign: 'center', padding: 5 }}>
+          <Text style={{ fontSize: 12, fontWeight: 'bold', fontStyle: 'italic', color: '#468189', textAlign: 'center', padding: 5 }}>
             {title}
           </Text>
-          {/* <Text style={{ color: '#777' }}>
-            {image}<br />
-            {vikidia}<br />
-            {description}
-          </Text> */}
         </View>
       </View>
     </View>

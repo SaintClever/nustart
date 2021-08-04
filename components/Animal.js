@@ -3,7 +3,7 @@ import { View, FlatList, Text, TouchableOpacity, Modal, StyleSheet, Image, Linki
 import { baseUrl } from '../shared/baseUrl';
 import axios from 'axios';
 import Layout from './Layout';
-import { ListItem, Card } from 'react-native-elements';
+import { ListItem, Icon } from 'react-native-elements';
 
 
 class Animal extends Component {
@@ -74,6 +74,22 @@ class Animal extends Component {
           <View style={style.container}>
             <View style={style.containerBorder}>
               <View style={style.containerImage}>
+                <Text style={{
+                  position: 'absolute',
+                  zIndex: 1,
+                  right: 25,
+                  top: 25,
+                  padding: 5,
+                  fontSize: 50,
+                  fontWeight: 'bold',
+                  fontStyle: 'italic',
+                  color: '#fff',
+                  textShadowColor: 'rgba(0, 0, 0, 0.50)',
+                  textShadowOffset: { width: -1, height: 1 },
+                  textShadowRadius: 10
+                }}>
+                  {this.state.animalBio.title}
+                </Text>
                 <Image
                   source={{ uri: baseUrl + this.state.animalBio.image }}
                   style={{
@@ -83,14 +99,16 @@ class Animal extends Component {
                 />
               </View>
               <View style={{ padding: 1 }}>
-                {/* <Text style={{ textAlign: 'center', padding: 5 }}>
-                  {this.state.animalBio.title}
-                </Text> */}
                 <View style={{ color: '#777', paddingBottom: 25, paddingRight: 25, paddingLeft: 25 }}>
-                  <Text style={{ color: '#468189', fontSize: 25 }}
-                    onPress={() => Linking.openURL(`'${this.state.animalBio.vikidia}'`)}>
+                  <Text style={{ fontSize: 25, fontWeight: 'bold', fontStyle: 'italic', color: '#468189' }}>
                     {this.state.animalBio.title}
-                    {console.log(this.state.animalBio.vikidia)}
+                    <Icon style={{ paddingLeft: 5 }}
+                      type='font-awesome'
+                      name='volume-up'
+                      // name='play-circle'
+                      color='#468189'
+                      size={20}
+                    />
                   </Text>
                   <Text style={{ lineHeight: 20 }}>
                     {this.state.animalBio.description}
