@@ -15,7 +15,7 @@ class Animal extends Component {
       animals: [],
       showModal: false,
       animalBio: [],
-      speak: false
+      speak: true
     }
     this.toggleModal = this.toggleModal.bind(this);
     this.handleSpeak = this.handleSpeak.bind(this);
@@ -41,12 +41,11 @@ class Animal extends Component {
   }
 
   handleSpeak(thingToSay) {
-    this.setState({ speak: !this.state.speak })
     if (this.state.speak) {
-      Speech.speak(thingToSay)
+      Speech.speak(thingToSay);
     } else {
-      Speech.stop();
-    };
+      this.setState({ speak: !this.state.speak });
+    }
   }
 
 
@@ -89,7 +88,7 @@ class Animal extends Component {
 
         <Modal visible={this.state.showModal} onRequestClose={() => {
           this.toggleModal();
-          this.handleSpeak();
+          Speech.stop();
           }}>
           <View style={style.container}>
             <View style={style.containerBorder}>
