@@ -1,6 +1,5 @@
 import React from 'react';
-import { View, FlatList, Text, Image, StyleSheet } from 'react-native';
-import { ListItem, Card } from 'react-native-elements';
+import { View, Text, Image, StyleSheet } from 'react-native';
 import { baseUrl } from '../shared/baseUrl';
 
 
@@ -9,20 +8,7 @@ function Layout({ title, image, vikidia, description }) {
     <View style={style.container}>
       <View style={style.containerBorder}>
         <View style={style.containerImage}>
-          <Text style={{
-            position: 'absolute',
-            zIndex: 1,
-            right: 2.5,
-            top: 2.5,
-            padding: 5,
-            fontSize: 50,
-            fontWeight: 'bold',
-            color: '#fff',
-            fontStyle: 'italic',
-            textShadowColor: 'rgba(0, 0, 0, 0.50)',
-            textShadowOffset: { width: -1, height: 1 },
-            textShadowRadius: 10
-          }}>
+          <Text style={style.abcStyle}>
             {title.slice(0, 1)}
           </Text>
           <Image
@@ -63,6 +49,20 @@ const style = StyleSheet.create({
     backgroundColor: '#eee',
     height: 140,
     overflow: 'hidden'
+  },
+  abcStyle: {
+    position: 'absolute',
+    zIndex: 1,
+    right: 2.5,
+    top: 2.5,
+    padding: 5,
+    fontSize: 50,
+    fontWeight: 'bold',
+    color: '#fff',
+    fontStyle: 'italic',
+    textShadowColor: 'rgba(0, 0, 0, 0.50)',
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10
   }
 });
 
