@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { View, FlatList, Text, TouchableOpacity, Modal, StyleSheet, Image } from 'react-native';
+import { View, FlatList, Text, TouchableOpacity, Modal, StyleSheet, Image, SafeAreaView } from 'react-native';
 import { baseUrl } from '../shared/baseUrl';
 import axios from 'axios';
 import Layout from './Layout';
 import { ListItem, Icon } from 'react-native-elements';
 import * as Animatable from 'react-native-animatable';
-import * as Speech from 'expo-speech';
+import * as Speech from 'expo-speech'; // React-tts doesn work in expo so I used expo-speech
 
 
 class Animal extends Component {
@@ -37,6 +37,7 @@ class Animal extends Component {
 
 
   passInAnimal(e) {
+    console.log(e);
     this.setState({ animalBio: this.state.animals[e] });
   }
 
@@ -58,14 +59,14 @@ class Animal extends Component {
     const animalData = ({ item }) => {
       return (
         <Animatable.View animation='fadeInDown' duration={250} delay={500}>
-          <TouchableOpacity
+          <TouchableOpacity style={{ paddingTop: 10, paddingBottom: 10 }}
             activeOpacity={.75}
             onPress={() => {
               this.toggleModal();
               this.passInAnimal(item.id);
               this.handleSpeak(item.title.slice(0, 1));
             }}>
-            <ListItem style={{ paddingBottom: 25 }}
+            <ListItem
               subtitle={
                 <Layout
                   title={item.title}
@@ -81,7 +82,8 @@ class Animal extends Component {
     };
 
     return (
-      <View style={{ marginLeft: 8, marginTop: 20, marginBottom: 25 }}>
+      <View>
+      <SafeAreaView style={{flex: 1, paddingTop: 10, paddingBottom: 10 }}>
         <Text>
           <FlatList
             data={this.state.animals}
@@ -90,10 +92,11 @@ class Animal extends Component {
             numColumns={2}
           />
         </Text>
+        </SafeAreaView>
 
         <Modal visible={this.state.showModal} onRequestClose={() => {
           this.toggleModal();
-          Speech.stop();
+          Speech.stop(); // Built-in method from expo-speech
           }}>
           <View style={style.container}>
             <View style={style.containerBorder}>
@@ -143,8 +146,6 @@ class Animal extends Component {
 const style = StyleSheet.create({
   container: {
     flex: 1,
-    // alignItems: 'center',
-    // justifyContent: 'center',
     width: "100%",
     height: "100%",
     fontSize: 11

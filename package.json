@@ -8,10 +8,13 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo-google-fonts/indie-flower": "^0.2.0",
+    "@expo-google-fonts/schoolbell": "^0.2.0",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/native": "^6.0.1",
     "axios": "^0.21.1",
     "expo": "~42.0.1",
+    "expo-app-loading": "^1.1.2",
     "expo-speech": "~9.2.0",
     "expo-status-bar": "~1.0.4",
     "react": "16.13.1",

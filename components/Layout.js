@@ -3,7 +3,7 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 import { baseUrl } from '../shared/baseUrl';
 
 
-function Layout({ title, image, vikidia, description }) {
+function Layout({ title, image }) {
   return (
     <View style={style.container}>
       <View style={style.containerBorder}>
@@ -14,8 +14,8 @@ function Layout({ title, image, vikidia, description }) {
           <Image
             source={{ uri: baseUrl + image }}
             style={{
-              height: 140,
-              width: 140
+              height: 149,
+              width: 149
             }}
           />
         </View>
@@ -32,10 +32,10 @@ function Layout({ title, image, vikidia, description }) {
 const style = StyleSheet.create({
   container: {
     flex: 1,
-    // alignItems: 'center',
-    // justifyContent: 'center',
-    width: 140,
-    height: 140,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: 149,
+    height: 149,
     fontSize: 11
   },
   containerBorder: {
@@ -47,7 +47,7 @@ const style = StyleSheet.create({
   },
   containerImage: {
     backgroundColor: '#eee',
-    height: 140,
+    height: 149,
     overflow: 'hidden'
   },
   abcStyle: {
