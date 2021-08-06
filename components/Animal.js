@@ -42,7 +42,12 @@ class Animal extends Component {
 
   handleSpeak(thingToSay) {
     if (this.state.speak) {
-      Speech.speak(thingToSay);
+      Speech.speak(
+        thingToSay, {
+        language: 'en-US',
+        pitch: 1,
+        rate: 1
+      });
     } else {
       this.setState({ speak: !this.state.speak });
     }
